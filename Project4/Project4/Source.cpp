@@ -7,8 +7,7 @@ using namespace std;
 int main(){
 	int a;
 	int x;
-	srand(time(NULL));
-	int y = rand() % 5 + 1;
+	int y;
 	int z;
 	cout << "Welcome to Rock Paper Scissors Lizard Spock, The Game!" << endl;
 	cout << "You will play the computer, in a fight to the DEATH!" << endl;
@@ -17,8 +16,7 @@ int main(){
 	for (z = 0; z != 1;){
 		a == 0;
 		x == 0;
-		srand(time(NULL));
-		y == rand() % 5 + 1;
+		y = rand() % 5 + 1;
 		system("CLS");
 		cout << "Choose your character: Rock (1), Paper (2), Scissors (3), Lizard (4), or Spock (5)." << endl;
 		cin >> x;
@@ -317,6 +315,7 @@ int main(){
 		}
 		else{
 			cout << "Selection Does Not Exist!" << endl;
+			system("PAUSE");
 		}
 	}
 	cout << "Thanks for Playing!" << endl;
