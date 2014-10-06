@@ -14,8 +14,8 @@ int main(){
 	system("PAUSE");
 	//Start Program
 	for (z = 0; z != 1;){
-		a == 0;
-		x == 0;
+		a = 0;
+		x = 0;
 		y = rand() % 5 + 1;
 		system("CLS");
 		cout << "Choose your character: Rock (1), Paper (2), Scissors (3), Lizard (4), or Spock (5)." << endl;
